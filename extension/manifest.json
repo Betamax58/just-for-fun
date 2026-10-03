@@ -1,0 +1,1 @@
+{"manifest_version": 3, "name": "Just for Fun", "version": "1.0.0", "description": "Choisir une araignée, une fourmi, un papillon ou un sniper qui fait éclater les mots.", "permissions": ["activeTab", "scripting"], "action": {"default_title": "Lancer / fermer Just for Fun"}, "background": {"service_worker": "background.js"}}
