@@ -1,6 +1,6 @@
 # Just for Fun
 
-Araignée interactive en JavaScript pur, sans dépendance et sans requête réseau. Version originale inspirée du principe montré dans la capture, sans reprendre le code de son auteur.
+Effets interactifs en JavaScript pur, sans dépendance et sans requête réseau. Version originale inspirée du principe montré dans la capture, sans reprendre le code de son auteur.
 
 ## Jouer immédiatement
 Ouvrir `demo.html` dans un navigateur sur ordinateur, puis cliquer sur **Lancer / retirer**. L’araignée suit la souris (ou un toucher sur écran tactile).
@@ -40,13 +40,14 @@ python3 tools/build.py
 
 Le corps tourne vers sa destination ; chaque pied conserve son ancrage jusqu’à son prochain pas. Les points d’appui sont calculés à partir des rectangles des lignes de texte et des bords d’éléments. Les pattes utilisent une articulation stylisée et une interpolation de pas, sans simulation physique complète.
 
-## Publier sur GitHub
-Le dossier est un dépôt Git local, avec un premier commit. Créer un dépôt GitHub vide nommé `just-for-fun`, puis depuis ce dossier :
+## Récupérer le projet
 
 ```sh
-git remote add origin https://github.com/VOTRE_COMPTE/just-for-fun.git
-git push -u origin main
+git clone https://github.com/Betamax58/just-for-fun.git
+cd just-for-fun
 ```
+
+Ouvrir `demo.html` ou charger le dossier `extension` dans le navigateur.
 
 ## Licence
 MIT — voir LICENSE.
